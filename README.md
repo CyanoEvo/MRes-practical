@@ -36,10 +36,4 @@ $for folder in ~/sandbox/f*;
  done
  ````
  
- ````
-$for sample in ~/Sequences/S*; 
- do cd $sample &&
-    mafft --auto *.fasta >
-    cd ..; 
- done
- ````
+
